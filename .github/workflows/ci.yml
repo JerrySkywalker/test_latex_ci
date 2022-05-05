@@ -25,8 +25,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: thesis.tex
-          latexmk_use_xelatex: true
-          latexmk_shell_escape: true
+#           latexmk_use_xelatex: true
+#           latexmk_shell_escape: true
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:
